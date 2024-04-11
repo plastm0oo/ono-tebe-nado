@@ -5,40 +5,6 @@
     z-index: -1;
 }
 
-h2 {
-    font-family: Raleway, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family: Raleway, sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    text-transform: uppercase;
-    text-underline-offset: 2px;
-    letter-spacing: normal;
-}
-
-p {
-    font-family: Raleway, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-}
-
-a {
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.15px;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
 /*header*/
 
 .header {
@@ -49,7 +15,10 @@ a {
 }
 
 .header__menu {
-    margin-left: 27px;
+    margin: 2px 0 0 27px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.15px;
 }
 
 .header__link_active {
@@ -63,7 +32,7 @@ a {
 
 .header__links-list {
     display: flex;
-    gap: 32px;
+    gap: 31px;
 }
 
 .header__links-list-item {
@@ -75,7 +44,7 @@ a {
 }
 
 .header__logo {
-    margin-right: 152px;
+    margin-right: 150px;
     width: 135px;
 }
 
@@ -84,8 +53,8 @@ a {
     margin-right: 25px;
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0.1px;
     line-height: 24px;
+    font-style: normal;
 }
 
 /*cover image*/
@@ -109,7 +78,7 @@ a {
     text-transform: uppercase;
     color: #fff;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .cover__title {
@@ -177,6 +146,11 @@ a {
 
 .lots__heading {
     margin-left: 40px;
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -208,15 +182,25 @@ a {
     background-size: cover;
     background-position: center;
     color: #fff;
-    z-index: -1;
+    z-index: 0;
 }
 
 .card__title {
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
     text-decoration: underline;
+    letter-spacing: normal;
     text-underline-offset: 3px;
 }
 
 .card__text {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: normal;
 }
 
@@ -235,6 +219,8 @@ a {
 .lots__look-more-link {
     margin-left: 40px;
     font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
     letter-spacing: normal;
 }
 
@@ -266,10 +252,18 @@ a {
     display: flex;
     flex-direction: column;
     gap: 26px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.15px;
 }
 
 .about__title {
-    margin: 138px 0px 73px;
+    margin: 137px 0px 73px;
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
 }
 
 /* footer */
